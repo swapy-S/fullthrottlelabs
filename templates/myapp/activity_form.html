@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "myapp/base.html" %}
+{% load bootstrap3 %}
+{% block body_block %}
+<div class="container">
+
+  <h2>Create Activity</h2>
+
+
+      <form class="post-form"  method="POST">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <center><button type="submit" class="save btn btn-primary">ADD</button></center>
+
+      </form>
+</div>
+
+
+
+
+
+
+{% endblock %}
