@@ -1,4 +1,4 @@
-# FullThrottleLabs
+# FullThrottleLabs Assignments
 
 ## Requirements install
 ```
