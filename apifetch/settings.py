@@ -71,6 +71,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'apifetch.wsgi.application'
+ASGI_APPLICATION = 'apifetch.asgi.application'
+
 
 
 # Database
