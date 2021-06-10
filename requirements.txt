@@ -4,7 +4,7 @@ attrs==19.3.0
 cffi==1.14.0
 click==7.1.2
 cryptography==2.9.2
-Django==3.0.6
+Django==3.1.12
 django-bootstrap3==12.1.0
 django-rest-knox==4.1.0
 djangorestframework==3.11.0
